@@ -36,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="960" y="143"/>
         </scene>
-        <!--Table View Controller-->
+        <!--To-Do List-->
         <scene sceneID="UQD-kk-8zE">
             <objects>
                 <tableViewController id="aON-Dg-pGp" sceneMemberID="viewController">
@@ -265,7 +265,9 @@
                             <outlet property="delegate" destination="aON-Dg-pGp" id="KZg-cS-39c"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="QMx-mG-gQQ"/>
+                    <navigationItem key="navigationItem" title="To-Do List" id="QMx-mG-gQQ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="7Iy-0t-a3x"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f60-fs-1qE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
