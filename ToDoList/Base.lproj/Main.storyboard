@@ -268,7 +268,7 @@
                     <navigationItem key="navigationItem" title="To-Do List" id="QMx-mG-gQQ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="7Iy-0t-a3x">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="Tr8-fk-Q9u"/>
+                                <segue destination="BYZ-38-t0r" kind="modal" id="Tr8-fk-Q9u"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
