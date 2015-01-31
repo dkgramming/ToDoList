@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3FC32E901A7AC55D005EB0D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC32E8F1A7AC55D005EB0D9 /* main.m */; };
 		3FC32E931A7AC55D005EB0D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC32E921A7AC55D005EB0D9 /* AppDelegate.m */; };
-		3FC32E961A7AC55D005EB0D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC32E951A7AC55D005EB0D9 /* ViewController.m */; };
 		3FC32E991A7AC55D005EB0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC32E971A7AC55D005EB0D9 /* Main.storyboard */; };
 		3FC32E9B1A7AC55D005EB0D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC32E9A1A7AC55D005EB0D9 /* Images.xcassets */; };
 		3FC32E9E1A7AC55D005EB0D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC32E9C1A7AC55D005EB0D9 /* LaunchScreen.xib */; };
@@ -32,8 +31,6 @@
 		3FC32E8F1A7AC55D005EB0D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FC32E911A7AC55D005EB0D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FC32E921A7AC55D005EB0D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FC32E941A7AC55D005EB0D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FC32E951A7AC55D005EB0D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FC32E981A7AC55D005EB0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC32E9A1A7AC55D005EB0D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FC32E9D1A7AC55D005EB0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +80,6 @@
 			children = (
 				3FC32E911A7AC55D005EB0D9 /* AppDelegate.h */,
 				3FC32E921A7AC55D005EB0D9 /* AppDelegate.m */,
-				3FC32E941A7AC55D005EB0D9 /* ViewController.h */,
-				3FC32E951A7AC55D005EB0D9 /* ViewController.m */,
 				3FC32E971A7AC55D005EB0D9 /* Main.storyboard */,
 				3FC32E9A1A7AC55D005EB0D9 /* Images.xcassets */,
 				3FC32E9C1A7AC55D005EB0D9 /* LaunchScreen.xib */,
@@ -219,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC32E961A7AC55D005EB0D9 /* ViewController.m in Sources */,
 				3FC32E931A7AC55D005EB0D9 /* AppDelegate.m in Sources */,
 				3FC32E901A7AC55D005EB0D9 /* main.m in Sources */,
 			);
@@ -414,6 +408,7 @@
 				3FC32EAF1A7AC55D005EB0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FC32EB01A7AC55D005EB0D9 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +417,7 @@
 				3FC32EB21A7AC55D005EB0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
